@@ -1,0 +1,17 @@
+{
+  "name": "eggjs.dev",
+  "version": "1.0.0",
+  "description": "Egg.js Development Guide",
+  "main": "index.js",
+  "repository": "git@github.com:thonatos/eggjs.dev.git",
+  "author": "Suyi <thonatos.yang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "doctools dev --configPath config.js",
+    "build": "doctools build --configPath config.js",
+    "deploy": "doctools deploy --configPath config.js --githubToken=true"
+  },
+  "devDependencies": {
+    "@eggjs/doctools": "^1.0.3"
+  }
+}
